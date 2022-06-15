@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+
+
+<!-- bean definitions here -->
+<bean class="com.cognizant.LearnMaven.collection.Collection" name="employee1">
+<property name="laptop">
+<list>
+<value>Hp</value>
+<value>Lenovo</value>
+<value>Acer</value>
+</list>
+</property>
+<property name="Mobile">
+<set>
+<value>Samsung</value>
+<value>Motorola</value>
+<value>Lg</value>
+</set>
+</property>
+<property name="country">
+<map>
+ <entry key = "1" value = "INDIA"/>
+ <entry key = "2" value = "Pakistan"/>
+ <entry key = "3" value = "USA"/>
+ <entry key = "4" value = "USA"/>
+</map>
+</property>
+</bean>
+
+
+
+</beans>

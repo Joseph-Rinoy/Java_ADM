@@ -1,0 +1,5 @@
+package com.cognizant.aspect;
+
+public class MyAspect {
+
+}
